@@ -20,7 +20,7 @@ export default {
         { id: 't3', name: 'Client Consulting', members: ['u4', 'u5'] },
       ],
       users: [
-        { id: 'u1', fullName: 'Taner Gyuner', role: 'Engineer' },
+        { id: 'u1', fullName: 'Taner Gyuner', role: 'Dev' },
         { id: 'u2', fullName: 'Maistora', role: 'Engineer' },
         { id: 'u3', fullName: 'Doktora', role: 'Engineer' },
         { id: 'u4', fullName: 'Ginka', role: 'Consultant' },
