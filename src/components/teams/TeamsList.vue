@@ -1,5 +1,6 @@
 <template>
   <button @click="confirmInput">Go to Users</button>
+  <router-view></router-view>
   <ul>
     <teams-item
       v-for="team in teams"
