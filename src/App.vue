@@ -3,6 +3,9 @@
   <main>
     <router-view></router-view>
   </main>
+  <footer>
+    <router-view name="footer"></router-view>
+  </footer>
 </template>
 
 <script>
@@ -48,5 +51,23 @@ html {
 
 body {
   margin: 0;
+}
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #525158;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #616064;
 }
 </style>
