@@ -53,7 +53,6 @@ export default {
     console.log('unmounted');
   },
 };
-// a
 </script>
 
 <style scoped>
